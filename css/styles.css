@@ -3,6 +3,7 @@ body {
   background-color: #36b55c;
   color: white;
   font-family: 'Playfair Display', serif;
+  transition: .5s;
 }
 #quote-box {
   position: absolute;
@@ -18,7 +19,7 @@ body {
   line-height: 1.1;
   position: relative;
   margin: 0;
-  } 
+} 
 .quote:before, .quote:after {
   font-size: 6rem;
   line-height: 2.5rem;
@@ -49,7 +50,7 @@ body {
   font-style: italic;
 }
 .citation:before {
-  content: ", ";
+  /*content: ", ";*/
   font-style: normal;
 }
 .year:before {
@@ -69,7 +70,7 @@ body {
   color: #fff;
   background-color: #36b55c;
   padding: 15px 0;
-  transition: .5s ;
+  transition: .5s;
 }
 #loadQuote:hover {
   background-color: rgba(255,255,255,.25);
